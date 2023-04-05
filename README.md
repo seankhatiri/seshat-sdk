@@ -16,7 +16,7 @@ npm install seshat-sdk
 Fetch personalized advertisements based on a user's blockchain address.
 
 ```javascript
-const seshat = require('seshat');
+const seshat = require('seshat-sdk');
 const apiKey = 'your-api-key';
 const userAddress = '0x1234567890abcdef1234567890abcdef12345678';
 
@@ -30,7 +30,7 @@ const userAddress = '0x1234567890abcdef1234567890abcdef12345678';
 Rerank a list of items based on a user's blockchain address.
 
 ```javascript
-const seshat = require('seshat');
+const seshat = require('seshat-sdk');
 const apiKey = 'your-api-key';
 const userAddress = '0x1234567890abcdef1234567890abcdef12345678';
 
