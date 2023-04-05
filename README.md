@@ -12,7 +12,7 @@ npm install seshat
 
 ## Usage
 
-- Fetch Advertisement
+### Fetch Advertisement
 Fetch personalized advertisements based on a user's blockchain address.
 
 ```javascript
@@ -26,11 +26,17 @@ const userAddress = '0x1234567890abcdef1234567890abcdef12345678';
 })();
 ```
 
-## Get Rerank
+### Get Rerank
 Rerank a list of items based on a user's blockchain address.
 
 ```javascript
-This is the second item'},
+const seshat = require('seshat');
+const apiKey = 'your-api-key';
+const userAddress = '0x1234567890abcdef1234567890abcdef12345678';
+
+const itemList = [
+  {title: 'Item 1', description: 'This is the first item'},
+  {title: 'Item 2', description: 'This is the second item'},
 {title: 'Item 3', description: 'This is the third item'}
 ];
 
