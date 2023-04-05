@@ -1,0 +1,22 @@
+{
+  "name": "seshat-sdk",
+  "version": "1.0.0",
+  "description": "Seshat Node.js sdk for dApp developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seankhatiri/seshat-sdk.git"
+  },
+  "author": "sean khatiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seankhatiri/seshat-sdk/issues"
+  },
+  "homepage": "https://github.com/seankhatiri/seshat-sdk#readme",
+  "dependencies": {
+    "axios": "^1.3.5"
+  }
+}
