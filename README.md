@@ -7,7 +7,7 @@ Seshat SDK is a Node.js package that provides an easy way to interact with the S
 Install the package using npm:
 
 ```bash
-npm install seshat
+npm install seshat-sdk
 ```
 
 ## Usage
